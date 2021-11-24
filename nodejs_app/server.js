@@ -29,7 +29,6 @@ function counter_hits(){
     c = c + 1
     counter.innerHTML = c
   }
-  window.onload = counter_hits; 
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
